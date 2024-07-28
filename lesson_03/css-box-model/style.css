@@ -1,0 +1,93 @@
+.red-box{
+    background: red;
+    width: 250px;
+    height: 250px;
+    border: 20px solid blue;
+    padding: 30px;
+    margin: 50px;
+}
+.blue-box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /*граница с лева*/
+    margin-left: 50px;
+    /*граница с права*/
+    margin-right: 40px;
+    /*граница с верху*/
+    margin-top: 30px;
+    /*граница с низу*/
+    margin-bottom: 20px;
+}
+.orange-box{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    /* сокращёная запись */
+
+
+    padding: 50px 40px 30px 20px;/* вверх право низ лево. по часовой и для margin */
+}
+
+.green-box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    padding: 40px 30px 10px;/* ввех // лево - право//низ */
+}
+.purpler-box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    padding: 20px 50px;
+}
+.black-box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+.rounded-corners{
+    border-radius: 20px;
+}
+.asymetric-corners{
+    border-radius: 60px 30px 0 10px;
+}
+.orange-box{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+span{
+    font-weight: 900;/* делает шрифт толще */
+}
+.container{
+    display: flex;
+}
+*{
+    margin: 5px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+.container div:nth-child(3n-1){
+    border-radius: 50%;
+    background-color: green;
+}
+
+
+
+
+
