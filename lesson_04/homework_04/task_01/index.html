@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Письмо Санте</h1>
+    <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество.</p>
+    <form action="greetings.html" method="get">
+        <div>
+            <label for="login_">
+                <input type="login" id="login_" placeholder="Логин">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="password_">
+                <input type="password" id="password_" placeholder="Пароль">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="name_">
+                <input type="name" id="name_" placeholder="Имя">
+            </label>
+        </div>
+        <br>
+        <p>Пол:</p>
+        <div>
+            <input type="radio" name="gender" id="gender1" value="boy">
+            <label for="gender1" tabindex="1">Мальчик</label>
+            <input type="radio" name="gender" id="gender2" value="girl">
+            <label for="gender2" tabindex="1">Девочка</label>
+        </div>
+        <br>
+        <div>
+            <label for="birth-day">День рождения:</label>
+            <input type="date" name="birth-day" id="birth-day">
+        </div>
+        <br>
+        <div>
+            <label for="">Твой город проживания:</label>
+            <select name="city">
+                <option value="Saint Petersburg">Санкт-Петербург</option>
+                <option value="Moscow">Москва</option>
+                <option value="Novosibirsk">Новосибирск</option>
+                <option value="Kazan">Казань </option>
+                <option value="Samara">Самара</option>
+            </select>
+        </div>
+        <br>
+        <p>Выбери цвет своей новой игрушки:</p>
+        <div>
+            <input type="color" name="color" id="cap" value="#FF0000">
+            <label for="cap">Шапочка</label>
+        </div>
+        <div>
+            <input type="color" name="color" id="costume" value="#FFA500">
+            <label for="costume">Костюм</label>
+        </div>
+        <br>
+        <p>Ты был хорошим ребёнком?</p>
+        <div>
+            <input type="radio" name="answer" id="answer1" value="yes">
+            <label for="answer1" tabindex="1">Да</label>
+            <input type="radio" name="answer" id="answer2" value="no">
+            <label for="answer2" tabindex="1">Нет</label>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Отправить письмо Санте</button>
+        </div>
+        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="email_">Email
+                <input type="email" id="email_" placeholder="Input your email" required>Lorem, ipsum.
+            </label>
+        </div>
+        <div>
+            <label for="">Password
+                <input type="password" placeholder="Input your password" required>Lorem, ipsum.
+            </label>
+        </div>
+<div>
+    Your age:
+    <div>
+        <input type="radio" name="age" id="age1" value="0-18" >
+        <label for="age1" tabindex="1">0-18</label>
+    </div>
+    <div>
+        <input type="radio" name="age" id="age2" value="19-50" >
+        <label for="age2" tabindex="1">19-50</label>
+    </div>
+    <div>
+        <input type="radio" name="age" id="age3" value="50+" >
+        <label for="age3" tabindex="1">50+</label>
+    </div>
+</div>
+<div>
+    <input type="color" name="color" id="favorite-color">
+    <label for="favorite-color">Favorite color</label>  
+</div> 
+<div>
+    <input type="date" name="birth-day" id="birth-day">
+    <label for="birth-day">Birth day</label>
+</div>
+<div>
+    <textarea name="text" id="" cols="30" rows="10" maxlength="20"></textarea>
+</div> 
+<br>
+<div>
+    <input 
+    type="range"
+    name="friendsCount" 
+    id="friendsCount" 
+    min="0" max="50" 
+    oninput="this.nextElementSibling.value= this.value">
+    <output></output>
+    <label for="friendsCount">Friends Count(from 0 to 50)</label>
+</div>
+<div>
+    <label for="">communication method
+        <select name="contact" form="contact-form">
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="Telegram">Telegram</option>
+            <option selected value="WhatsApp">WhatsApp</option>
+
+        </select>
+    </label>
+    <br>
+    <div>
+        <input type="checkbox" name="agree_spam" id="agree1" value="YES">
+        <label for="agree1">Agree spam</label>
+    </div>
+    <div>
+        <input type="checkbox" name="agree_terms" id="agree2" value="YES">
+        <label for="agree2">Agree terms</label>
+    </div>
+    <div>
+        <input checked type="checkbox" name="agree_rent" id="agree3" value="YES">
+        <label for="agree3">Agree rent</label>
+    </div>
+
+    <div>
+        <p>
+        <input type="file" name="userPhoto" id="" >
+        </p>
+    </div>
+</div>
+<div>
+    <p>Action</p>
+    <button type="submit">Send</button>
+    <button type="reset">Reset</button>
+
+</div>
+
+
+
+
+    </form>
+</body>
+</html>
