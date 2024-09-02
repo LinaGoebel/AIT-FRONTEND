@@ -1,27 +1,24 @@
 //Добавить новые элементы в начало и в конец списка
-let newElement = document.createElement("li");
-newElement.textContent = "Новый элемент";
+let newFirstElement = document.createElement("li");
+let newSecondElement = document.createElement("li");
+newFirstElement.textContent = "Первый новый элемент добавленный в начало списка";
+newSecondElement.textContent = "Второй новый элемент добавленный в конец списка"
 let list = document.querySelector("ol");
-list.prepend(newElement); 
-list.append(newElement);
+list.prepend(newFirstElement); 
+list.append(newSecondElement);
+
+
+let allElements = document.querySelectorAll("li");
 
 //Изменить текст второго элемента списка
-let allElements = document.querySelectorAll("li");
 let secondElement = allElements[1];
-for(let element of allElements){
-    console.log(element.textContent);
-}
 secondElement.textContent = "Изменённый текст второго элемента списка";
-console.log(secondElement.textContent);
-
 
 //Удалить третий элемент
-let removeElements = document.querySelectorAll("li");
-let thirdElement = removeElements[2];
+let thirdElement = allElements[2];
 thirdElement.remove();
 
 //Изменить стили по своему усмотрению для четвертого элемента
-let styleElements = document.querySelectorAll("li");
-let fourthElement =styleElements[3];
+let fourthElement = allElements[3];
 fourthElement.style.color = "blue";
 
