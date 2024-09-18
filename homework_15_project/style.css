@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 1440px;
+  height: 880px;
+  background: #112233;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 48px;
+  left: 567px;
+  width: 306px;
+  height: 52px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  gap: 30px;
+  position: absolute;
+  width: 590px;
+  height: 592px;
+  left: 150px;
+  top: 144px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 470px;
+  height: 372px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #6f6f6f;
+}
+
+.elements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 470px;
+  height: 78px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 3px;
+  width: 470px;
+  height: 50px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  color: #1e1e1e;
+  border-radius: 1px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px;
+}
+
+.create-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 54px;
+  gap: 10px;
+  width: 470px;
+  height: 70px;
+  background: #1f27f5;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 59px;
+  font-size: 20px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 30px;
+  position: absolute;
+  width: 456px;
+  height: 470px;
+  left: 834px;
+  top: 144px;
+  background: #ffffff;
+  border-radius: 4px;
+  opacity: 0;
+}
+
+.element {
+  width: 336px;
+  height: 21px;
+  gap: 8px;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #6f6f6f;
+  align-self: stretch;
+}
+
+.result-elment {
+  width: 336px;
+  height: 36px;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+  align-self: stretch;
+  flex-grow: 0;
+}
